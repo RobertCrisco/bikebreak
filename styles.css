@@ -51,6 +51,7 @@ nav {
     flex: 1;
     background: #AAC0AF;
     padding: 20px;
+    text-decoration: none;
   }
   
   /* Style the list inside the menu */
