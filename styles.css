@@ -12,7 +12,29 @@ p {
 }
 
 header {
-  background: #AAC0AF;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo img {
+  max-height: 50px;
+}
+
+topnav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+topnav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+topnav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
   
