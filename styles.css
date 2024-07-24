@@ -7,14 +7,14 @@ body {
 }
   
 p {
-    font-size:5vw;
+    font-size:1vw;
 }
 
 header {
     background-color: #896978;
     padding: 30px;
     text-align: center;
-    font-size: 10vw;
+    font-size: 5vw;
     color: white;
   }
   
