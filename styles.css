@@ -11,69 +11,9 @@ p {
     font-size:1vw;
 }
 
-.header {
-    background-color: #896978;
-    overflow: hidden;
-    padding: 20px 10px;
-    color: white;
-  }
-
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-
-  /* Style the header links */
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+header {
+  background: #AAC0AF;
 }
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-  topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
-
-  topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 17px;
-  }
-  
 
   
   /* Container for flexboxes */
@@ -121,12 +61,5 @@ footer {
       flex-direction: column;
     }
 
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
+   
   }
