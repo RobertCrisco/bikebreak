@@ -28,8 +28,6 @@ section {
 nav {
     -webkit-flex: 1;
     -ms-flex: 1;
-    
-    padding: 1rem 2rem;
     flex: 1;
     background: #AAC0AF;
     padding: 20px;
