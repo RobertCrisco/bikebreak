@@ -53,13 +53,12 @@ section {
   
   /* Style the navigation menu */
 nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: #AAC0AF;
-    padding: 20px;
-    text-decoration: none;
-  }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ff5733;
+    }
   
   /* Style the list inside the menu */
 nav ul {
@@ -71,6 +70,10 @@ nav ul:hover a {
     background-color: #ddd;
     color: black;
   }
+
+
+
+
   
   /* Style the content */
 article {
