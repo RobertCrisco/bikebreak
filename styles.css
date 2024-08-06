@@ -125,8 +125,21 @@ h3 {
   margin-top: 0;
 }
   
+
+
+
   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
   @media (max-width: 600px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+    
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
