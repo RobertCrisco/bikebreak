@@ -54,11 +54,11 @@ section {
   /* Style the navigation menu */
 nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #ff5733;
-    }
+    justify-content: space-between;
+    width: 80%;     
+    background: #AAC0AF;
+    text-decoration: none;
+  }
   
   /* Style the list inside the menu */
 nav ul {
@@ -71,9 +71,10 @@ nav ul:hover a {
     color: black;
   }
 
+  
 
 
-
+  
   
   /* Style the content */
 article {
