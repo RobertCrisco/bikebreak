@@ -55,7 +55,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 80%;     
+    width: 20%;     
     background: #AAC0AF;
     text-decoration: none;
   }
