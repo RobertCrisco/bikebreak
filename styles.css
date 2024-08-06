@@ -66,6 +66,16 @@ nav ul {
     padding: 0;
   }
 
+nav li a {
+  text-decoration: none;
+  font-family: Poppins;
+  color: #F5F5F5;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 130%;
+  margin: 10px;
+}  
+
 nav li:hover a {
     background-color: #ddd;
     color: black;
