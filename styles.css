@@ -64,7 +64,7 @@ h1 {
 
 
   /* Style the content */
-.article {
+article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
