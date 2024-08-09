@@ -6,6 +6,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  text-align:center;
+}
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -43,6 +47,9 @@ body {
 }
 
 
+
+
+
   /* Style the content */
   .vendor {
     -webkit-flex: 3;
@@ -61,6 +68,11 @@ body {
   background-color: #ddd;
   color: black;
 }
+
+
+
+
+
 
   
   /* Container for flexboxes */
