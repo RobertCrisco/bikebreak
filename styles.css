@@ -43,6 +43,15 @@ body {
 }
 
 
+  /* Style the content */
+  .vendor {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #EFD5C3;
+    padding: 10px;
+  }
+
 .vendor a{
   text-decoration: none;
 }
@@ -93,14 +102,7 @@ nav li:hover a {
 
   
   
-  /* Style the content */
-.vendor {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-    background-color: #EFD5C3;
-    padding: 10px;
-  }
+
 
 
 
