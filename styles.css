@@ -61,13 +61,10 @@ h1 {
 }
 
 
-.article {
-  background-color: #EFD5C3;
-}
 
 
   /* Style the content */
-  .vendor {
+  .article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
