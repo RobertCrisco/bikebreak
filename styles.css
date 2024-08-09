@@ -69,6 +69,7 @@ h1 {
     -ms-flex: 3;
     flex: 3;
     background-color: #EFD5C3;
+    width: 80%;
     padding: 10px;
   }
 
