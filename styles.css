@@ -54,6 +54,7 @@ body {
 
 .vendor a{
   text-decoration: none;
+  color: black;
 }
 
 .vendor a:hover {
