@@ -43,6 +43,14 @@ body {
 }
 
 
+.vendor a{
+  text-decoration: none;
+}
+
+.vendor a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
   
   /* Container for flexboxes */
