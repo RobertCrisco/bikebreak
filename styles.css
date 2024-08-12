@@ -11,7 +11,7 @@ body {
   color: black;
 }
 
- .a:hover {
+ a:hover {
   background-color: #ddd;
   color: black;
 }
