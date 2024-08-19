@@ -166,6 +166,10 @@ footer {
 h3 {
   margin-top: 0;
 }
+
+th {
+  text-align: left;
+}
   
 
 
