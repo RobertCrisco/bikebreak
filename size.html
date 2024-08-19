@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Bike Break Sizing</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Bike, Cycle, Biking, Cycling">
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+  <div class="header">
+    <a href="#default" class="logo">Bike Break</a>
+    <div class="header-right">
+      <a class="active" href="index.html">Home</a>
+      <a href="#Blog">Blog</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+  </div>
+
+
+
+
+<section>
+    <nav>
+        <ul>
+          <li><a href="begin.html">Beginner</a></li>
+          <li><a href="maintain.html">Maintenance</a></li>
+          <li><a href="train.html">Training</a></li>
+          <li><a href="gear.html">Gear</a></li>
+          <li><a href="vendor.html">Vendors</a></li>
+          <li><a href="resource.html">Resource Links</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h1>Bike Sizing</h1>
+        <script language="javascript">
+        		
+        
+        
+            function addNumbers()
+            {
+                    var val1 = parseInt(document.getElementById("value1").value);
+                    var val2 = parseInt(document.getElementById("value2").value);
+                    var val3 = parseInt(document.getElementById("value3").value);
+                    
+                    var ansRD = document.getElementById("rdanswer");
+                    var ansCT = document.getElementById("ctanswer");
+                    var ansMT = document.getElementById("mtanswer");
+                   
+                    
+                    ansRD.value = (Math.round(val3 * 2.54 ) * 0.70).toFixed(2);
+                    ansCT.value = (Math.round(val3 * 2.54 ) * 0.685).toFixed(2);
+                    ansMT.value = (Math.round(val3 * 2.54 ) * 0.225).toFixed(2);
+                  
+                    
+                    
+            }
+            
+           
+            
+    </script>
+</head>
+
+      
+    Feet = <input type="text" id="value1" name="value1" value="5"/>
+    Inches = <input type="text" id="value2" name="value2" value="11"/><br>
+    Inseam = <input type="text" id="value3" name="value3" value="25"/><br>
+    <input type="button" name="Sumbit" value="Click here" onclick="javascript:addNumbers()"/>
+    <br><br>
+    Road Bike Size = <input type="text" id="rdanswer" name="rdanswer" value=""/> cm<br>
+    City Bike Size = <input type="text" id="ctanswer" name="hyanswer" value=""/> cm<br>
+    Mountain Bike Size = <input type="text" id="mtanswer" name="ntanswer" value=""/> inches
+    <article>
+</section>
+
+
+
+
+<footer class="site-footer">
+    <div class="container">
+      <div class="footer-about">
+        <h3>About Us</h3>
+        <p>Our mission is to deliver exceptional web experiences.</p>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Email: info@example.com</p>
+        <p>Phone: +123 456 7890</p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
